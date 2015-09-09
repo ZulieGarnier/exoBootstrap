@@ -2,6 +2,11 @@
 
 Voici du code :
 
-var bouton = document.GetElementById("bouton");
-bouton.onclick = alert("Vous avez cliqué !");
+var element = document.getElementById('clickme');
+
+    element.onclick = function() {
+        alert("Vous m'avez cliqué !");
+    };
+    
+
 
